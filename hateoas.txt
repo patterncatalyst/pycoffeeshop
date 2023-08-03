@@ -1,0 +1,29 @@
+{
+    "id": 1,
+    "status": "progress",
+    "created": "2023-30-03",
+    "order": [
+        {
+            "product": "cappuccino",
+            "size": "small",
+            "quantity": 1
+        },
+        {
+            "product": "croissant",
+            "size": "medium",
+            "quantity": 2
+        }
+    ],
+    "links": [
+        {
+            "href": "/orders/1/cancel",
+            "description": "Cancels the order",
+            "type": "POST"
+        },
+        {
+            "href": "/orders/1/pay",
+            "description": "Pays for the order",
+            "type": "POST"
+        }
+     ]
+}
